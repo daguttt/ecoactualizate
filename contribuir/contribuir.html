@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoactualizate</title>
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script defer src="../js/index.js" type="module"></script>
+    <link rel="stylesheet" href="../css/contribuir.css">
+</head>
+<main>
+    <!-- **************** Navbar **************** -->
+    <section class="navbar-light">
+        <div class="navbar-container container">
+            <a href="../home/home.html" class="branding">
+                <img class="branding__image" src="../assets/logo-dark.svg" alt="Ecoactualizate logo" />
+                <h3 class="h3 branding__title">Ecoactualizate</h3>
+            </a>
+            <button class="menu-toggler">
+                <img src="../assets/menu-icon-black.svg" alt="Menu icon">
+            </button>
+            <nav class="nav-menu nav-menu-no-cta">
+                <ul>
+                    <li><a class="link" href="../home/home.html">Inicio</a></li>
+                    <li>
+                        <a class="link link--active" href="../actualizate/actualizate.html">Actualizate</a>
+                    </li>
+                    <li><a class="link" href="../noticias/noticias.html">Noticias</a></li>
+                    <li><a class="link" href="../nosotros/nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- **************** Fin Navbar **************** -->
+    <!-- ***************************** HEADER ***************************** -->
+    <header class="header-contribuir">
+        <!-- **************** Hero **************** -->
+        <section class="hero-contribuir">
+            <div class="hero-contribuir-container container">
+                <div class="hero-contribuir__content">
+                    <h1 class="display black">Con tu <span class="text-active">aporte</span> ya haces parte del <span class="text-active">cambio</span></h1>
+                    <h3 class="h3 semi-bold">
+                        Rellena el formulario y cuéntanos qué puedes donar para contribuir al aprovechamiento de objetos reciclables.
+                    </h3>
+                </div>
+            </div>
+        </section>
+        <!-- **************** Fin Hero **************** -->
+        <!-- ***************************** FIN HEADER ***************************** -->
+    </header>
+    <!-- ***************************** MAIN ***************************** -->
+    <main>
+        <section class="donate">
+            <div class="donate-container container">
+                <h3 class="h3 bold">¿Qué puedo donar?</h3>
+                <div class="cards-images">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../assets/papel.svg" alt="Illustration paper">
+                        </div>
+                        <h3 class="h3 semi-bold">Papel</h3>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../assets/vidrio.svg" alt="Illustration glass">
+                        </div>
+                        <h3 class="h3 semi-bold">Vidrio</h3>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../assets/aceite.svg" alt="Illustration oil">
+                        </div>
+                        <h3 class="h3 semi-bold">Aceite</h3>
+                    </div>
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../assets/plastico.svg" alt="Illustration plastic bottle">
+                        </div>
+                        <h3 class="h3 semi-bold">Plástico</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contribuir">
+            <div class="contribuir-container container">
+                <form class="contribuir__form form" action="conexion.php" method="POST">
+                    <div class="form__input">
+                        <label for="nombre">Ingresa tu nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ej: Pepito">
+                    </div>
+                    <div class="form__input">
+                        <label for="apellido">Ingresa tu apellido</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="Ej: Perez">
+                    </div>
+                    <div class="form__input">
+                        <label for="correo">Ingresa tu correo electrónico</label>
+                        <input type="text" name="correo" id="correo" placeholder="Ej: ejemplo@ejemplo.com">
+                    </div>
+                    <div class="form__input">
+                        <label for="descripcion">Cuentanos que tienes para donar</label>
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Ej: Tengo algunas botellas de plástico"></textarea>
+                    </div>
+                    <div class="form__input">
+                        <button type="submit" value="Enviar" class="form__btn btn btn-primary btn-lg">Enviar</button>
+                    </div>
+                </form>
+                <div class="contribuir__image">
+                    <img src="../assets/form-image.svg" alt="Save planet Illustration">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ***************************** FIN MAIN ***************************** -->
+    <!-- ***************************** FOOTER ***************************** -->
+    <footer>
+        <section class="footer">
+            <div class="footer-container container">
+                <div class="footer-social">
+                    <h3 class="h3 h3-upper extrabold">
+                        EL FUTURO NO ES DESECHABLE
+                    </h3>
+                    <div class="footer-social__container">
+                        <a href="https://api.whatsapp.com/send?phone=3002047922">
+                            <img src="../assets/whatsapp-icon.svg" alt="Whatsapp icon" />
+                        </a>
+                        <a href="mailto:sofiatobon2020@gmail.com">
+                            <img src="../assets/mail-icon.svg" alt="Mail icon" />
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-branding footer-branding-no-cta">
+                    <a href="#" class="footer-branding__container">
+                        <img src="../assets/logo-light.svg" alt="Ecoactualizate logo" />
+                        <p class="body bold">Ecoactualizate</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- ***************************** FIN FOOTER ***************************** -->
+</main>
+
+</html>
