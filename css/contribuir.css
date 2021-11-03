@@ -203,6 +203,11 @@
   width: 90%;
   margin: 0 auto;
 }
+.navbar .navbar-container, 
+.navbar-dark .navbar-container, 
+.navbar-light .navbar-container {
+  padding: 0;
+}
 .navbar .branding, .navbar-light .branding, .navbar-dark .branding {
   display: -webkit-box;
   display: -ms-flexbox;
